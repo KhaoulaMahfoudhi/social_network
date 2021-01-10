@@ -29,8 +29,8 @@ router.post(
   validator,
   createUpdateProfile
 );
-router.get('/', isAuth(), getAllProfiles);
-router.get('/user/:user_id', isAuth(), getUserProfile);
+router.get('/', getAllProfiles);
+router.get('/user/:user_id', getUserProfile);
 router.delete('/deleteProfile', isAuth(), deleteProPost);
 router.put('/addProfileExp', isAuth(), ExpRules(), addprofileExp);
 router.delete('/experience/:exp_id', isAuth(), deleteExp);
