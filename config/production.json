@@ -1,0 +1,6 @@
+{
+    "mongoURI" : "mongodb+srv://khaoula123:khaoula123@socialnetwork.z9cxn.mongodb.net/socialnetwork?retryWrites=true&w=majority",
+    "secretOrKey": "Secret",
+    "githubClientId": "f04859cf972e6e5f0994",
+    "githubSecret": "0da4c8ae0a3172fb61236839e0e41ef0ecec0f85"
+}
